@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# But not these files
+!.gitignore
+!main.tex
+!graphics
+!sample.pdf
+!sample.tex
+
+# Even if they are in subdirectories
+!*/
+
+# In case files to be tracked are in subdirectories:
+# !*/a/b/file1.txt
+# !*/a/b/c/*
